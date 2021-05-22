@@ -1,0 +1,5 @@
+name: Set Target Branch
+description: Sets the target branch given the current context is responding to another workflow being completed
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
